@@ -1,6 +1,85 @@
 
 <!DOCTYPE html><html><head><title>Radiosai</title><meta name="viewport" content="width=device-width, initial-scale=1"></head><body>
-<style>#one,#two,.box{width:100%;height:100%}.btn,.click{cursor:pointer;font-size:1em}.box{background:#0890D2;float:left}#container,#player{width:70px;height:70px;position:relative;font-family:inherit;margin:10px auto auto}#one,#two{position:absolute;top:0;left:0;transition:.3s}.click{border:1px solid #ccc;margin:15px auto auto;display:block;text-decoration:none;color:#000;width:150px;padding:3px;background:#fff}.click:hover{background:#007ba9;color:#FCFCFC}.btn{font-family:inherit;color:#5d504f;margin:5px;padding:8px 10px;border-radius:5em;background:#fff;border:1px solid rgba(18,7,6,.2);display:table}.btn:hover{background:#f1f1f1;color:#000}.btn:focus,button,input:focus{outline:0}</style>
+<style>
+body {
+	font-family: sans-serif;
+}
+
+#one,
+#two {
+	width: 100%;
+	height: 100%
+}
+
+.btn,
+.click {
+	cursor: pointer;
+	font-size: 1em
+}
+
+.box {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	display: block;
+	margin: auto;
+	width: 250px;
+	padding: 1em;
+}
+
+#container,
+#player {
+	width: 70px;
+	height: 70px;
+	position: relative;
+	font-family: inherit;
+	margin: 10px auto auto
+}
+
+#one,
+#two {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: .3s
+}
+
+.click {
+	border: 1px solid #ccc;
+	margin: 15px auto auto;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	width: 150px;
+	padding: 3px;
+	background: #fff
+}
+
+.click:hover {
+	background: #007ba9;
+	color: #FCFCFC
+}
+
+.btn {
+	font-family: inherit;
+	color: #5d504f;
+	margin: 5px;
+	padding: 8px 10px;
+	border-radius: 5em;
+	background: #fff;
+	border: 1px solid rgba(18, 7, 6, .2);
+	display: table
+}
+
+.btn:hover {
+	background: #f1f1f1;
+	color: #000
+}
+
+.btn:focus,
+button,
+input:focus {
+	outline: 0
+}
+</style>
 <noscript>JavaScript is disabled.<audio id="player" src="https://stream.sssmediacentre.org:8443/bhajan" controls="controls" style="width:100%;"></audio></noscript>
 <div class="box">
     <div id="container">
